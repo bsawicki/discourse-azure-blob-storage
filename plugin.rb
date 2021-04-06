@@ -9,7 +9,7 @@ require "file_store/base_store"
 # GEMS
 gem 'faraday_middleware', '1.0.0', {require: false}
 gem 'net-http-persistent', '4.0.0', {require: false}
-gem 'azure-storage-common', '2.0.2', git: https://github.com/bsawicki/azure-storage-ruby.git, {require: false}
+gem 'azure-storage-common', '2.0.2', git: https://github.com/bsawicki/azure-storage-ruby.git
 gem 'azure-storage-blob', '2.0.1', {require: false}
 
 require 'azure/storage/blob'
